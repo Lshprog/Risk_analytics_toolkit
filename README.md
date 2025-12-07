@@ -42,12 +42,13 @@ risk-toolkit/
 │  └─ credit_risk.py        # PD/LGD/EL and credit-loss simulation
 │
 ├─ notebooks/
-│  └─ 02_var_es_credit_risk_demo.ipynb   # Main demonstration notebook
+│  └─ var_es_credit_risk_demo.ipynb  # Main demonstration notebook
 │
 ├─ scripts/
 │  ├─ run_var_es.py         # CLI script to compute market VaR/ES
 │  └─ run_credit_sim.py     # CLI script to simulate credit losses
 │
-├─ data/                    # Cached ETF price data (auto-generated)
+├─ data/                    # Cached ETF price data
+│  └─ prices_raw.csv
 ├─ requirements.txt
 └─ README.md
